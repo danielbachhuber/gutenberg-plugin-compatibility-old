@@ -20,7 +20,9 @@ Once you've made your determination, record your results according to the data f
 
 ## Data Format
 
-Each [issue](https://github.com/danielbachhuber/gutenberg-plugin-compatibility/issues) correlates with a specific plugin (title is the plugin slug). The labels indicate state of compatibility:
+Each [issue](https://github.com/danielbachhuber/gutenberg-plugin-compatibility/issues) correlates with a specific plugin.
+
+The **title is the plugin slug**. The **labels indicate state of compatibility**:
 
 * [state:untested](https://github.com/danielbachhuber/gutenberg-plugin-compatibility/issues?q=is%3Aissue+is%3Aopen+label%3Astate%3Auntested) - Haven't yet been tested for Gutenberg compatibility.
 * [state:compatible](https://github.com/danielbachhuber/gutenberg-plugin-compatibility/issues?q=is%3Aissue+is%3Aopen+label%3Astate%3Acompatible) - Tested and confirmed to be compatible with Gutenberg.
@@ -30,4 +32,4 @@ Each [issue](https://github.com/danielbachhuber/gutenberg-plugin-compatibility/i
     * [incompatible:broken-features](https://github.com/danielbachhuber/gutenberg-plugin-compatibility/issues?q=is%3Aopen+is%3Aissue+label%3Aincompatible%3Abroken-features) - Incompatible because features are present in Gutenberg but broken.
     * [incompatible:missing-features](https://github.com/danielbachhuber/gutenberg-plugin-compatibility/issues?q=is%3Aopen+is%3Aissue+label%3Aincompatible%3Amissing-features) - Incompatible because existing features are missing in Gutenberg.
 
-The description is free-form documentation of the research.
+The **description logs any and all research performed**. Reproducibility is important, yo.
