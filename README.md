@@ -4,7 +4,7 @@ Database of plugins and their compatibility with Gutenberg. A no-software protot
 
 _Compatible_ means a WordPress user can use the Gutenberg editor with the plugin. For instance, [Akismet is compatible](https://github.com/danielbachhuber/gutenberg-plugin-compatibility/issues/1) with Gutenberg because it doesn't expose any UI in the editor. However, [Shortcodes Ultimate is incompatible](https://github.com/danielbachhuber/gutenberg-plugin-compatibility/issues/40) because the media button it adds to the classic editor isn't present in Gutenberg.
 
-Compatible really means that a WordPress user should lose any functionality when they update to WordPress 5.0 on day one.
+Compatible really means that a WordPress user should not lose any functionality when they update to WordPress 5.0 on day one.
 
 ## Testing
 
